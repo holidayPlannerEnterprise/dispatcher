@@ -7,8 +7,9 @@ import org.springframework.kafka.support.Acknowledgment;
 import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Component;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.arpajit.holidayplanner.dto.KafkaMessage;
+import com.arpajit.holidayplanner.dispatcher.dto.KafkaMessage;
 
 @Component
 public class DispatcherConsumer {
